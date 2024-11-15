@@ -1,0 +1,77 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  /* margin: 0; */
+}
+
+.whatido-container {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.whatidoImage {
+  width: 50%;
+}
+
+.whatidoText {
+  width: 50%;
+  padding-right: 90px;
+}
+
+.whatidoLottieImg {
+  height: 300px;
+}
+
+.whatido-intro {
+  font-size: 50px;
+  font-weight: 450;
+  display: inline;
+}
+
+.whatido-description {
+  padding-top: 20px;
+  font-size: 20px;
+  color: grey;
+  text-align: justify;
+}
+
+.whatido-list {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.whatido-list li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1135px) {
+  .whatido-container {
+    flex-direction: column-reverse;
+    display: flex;
+    height: 100%;
+    /* padding-top: 90%; */
+  }
+
+  .whatidoImage {
+    width: 90%;
+    margin-top: -50px;
+  }
+
+  .whatidoText {
+    width: 90%;
+    padding-right: 0px;
+  }
+
+  .whatido-intro {
+    font-size: 30px;
+  }
+
+  .whatido-list {
+    padding-bottom: 0px;
+  }
+  
+}
