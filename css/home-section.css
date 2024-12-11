@@ -1,0 +1,186 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  /* background-color: brown; */
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+  /* margin-top: 90px; */
+}
+
+/* greeting text related css */
+.greetingText {
+  width: 65%;
+  padding: 0px 100px;
+}
+
+.intro {
+  font-size: 50px;
+  font-weight: 450;
+  display: inline;
+}
+
+.greetingIntro {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.hiAnimation {
+  height: 70px;
+}
+
+.description {
+  font-size: 20px;
+  color: grey;
+  text-align: justify;
+}
+
+.lottieGreetingImage{
+  height: 100%;
+  width: 60%;
+}
+
+/* greeting image related css */
+.greetingImage {
+  width: 90%;
+}
+
+.greetingImage img {
+  max-height: 400px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1135px) {
+  .home {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the start */
+      justify-content: flex-start;
+      height: 100%;
+  }
+  .greetingText {
+    width: 89%;
+    padding: 30px 20px !important;
+  }
+  
+  .intro {
+    font-size: 30px !important;
+    font-weight: 600;
+  }
+
+  .description {
+    color: grey;
+    font-size: 20px !important;
+  }
+
+  .hiAnimation {
+    height: 60px !important;
+  }
+
+  .greetingImage {
+    width: 100%;
+  }
+
+}
+
+#socialMediaLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+#socialMediaLinks a {
+  text-decoration: none;
+}
+
+#socialMediaLinks a img {
+  padding-top: 20px;
+  padding-inline: 5px;
+  padding-left: 0px;
+  height: 40px;
+}
+
+#socialMediaLinks a img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* resume button */
+.button {
+  margin-top: 20px;
+  margin-left: 5px;
+  position: relative;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); */
+  /* padding-block: 0.1rem; */
+  padding-inline: 1.5rem;
+  background-color: rgb(0 107 179);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 0px;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.button:hover .icon {
+  transform: translate(4px);
+}
+
+.button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
