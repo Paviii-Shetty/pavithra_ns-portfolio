@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Pavithra N S" />
+    <meta
+      property="og:description"
+      content="Welcome to my portfolio website. I am a Java developer with 2 years of experience in designing and building Spring Boot Microservices and REST APIs."
+    />
+    <meta property="og:image" content="pics/title_logo1" />
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a Java developer with 2 years of experience in designing and building Spring Boot Microservices and REST APIs."
+    />
+    <meta
+      name="keywords"
+      content="Pavithra N S, PavithraNS, Praveen, pavithra N S, pavithra N S, pavithra N S, Portfolio, portfolio, pavithra N S portfolio, praveen portfolio, pavithra N S portfolio, pavithra N S portfolio netlify, netlify portfolio, pavithra netlify portfolio, java developer, java, java development, spring, springboot, microservices, Microservices, JAVA"
+    />
+    <meta name="author" content="Pavithra N S" />
+    <title>Pavithra N S - Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="pics/title_logo1.jpeg" />
+    <link rel="stylesheet" href="./css/nav-bar.css" />
+    <link rel="stylesheet" href="./css/home-section.css" />
+    <link rel="stylesheet" href="./css/whatido.css" />
+    <link rel="stylesheet" href="./css/experience-section.css" />
+    <link rel="stylesheet" href="./css/skills-section.css" />
+    <link rel="stylesheet" href="./css/projects-sections.css" />
+    <link rel="stylesheet" href="./css/contact-section.css" />
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <div class="navbar-container" id="navbar">
+      <div class="logo">
+        <a href="#">
+          <!-- <img src="./images/logo/logo7.png" alt="PavithraNSLogo"> -->
+          <img src="pics/home_logo.jpeg" alt="PavithraNSLogo" />
+        </a>
+      </div>
+      <div class="links" id="navbarLinks">
+        <a href="#">Home</a>
+        <a href="#whatido">What I do</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="hamburger" id="hamburgerIcon">
+        <img src="./images/icons/menu.png" alt="Menu" onclick="toggle()" />
+      </div>
+    </div>
+
+    <!-- Home Section -->
+    <div class="home" id="home">
+      <div class="greetingText">
+        <div class="greetingIntro">
+          <p class="intro">Hi, I'm Pavithra N S</p>
+          <div class="hiAnimation">
+            <lottie-player
+              src="https://lottie.host/6b44b5ef-88ae-4eb2-970e-9d682a01c467/jpo0HZlPNm.json"
+              background="##FFFFFF"
+              speed="1"
+              loop
+              autoplay
+              direction="1"
+              mode="normal"
+            >
+            </lottie-player>
+          </div>
+        </div>
+
+        <p class="description">
+          A passionate Java Developer with 2.7 years of experience in designing
+          and building Spring Boot Microservices and powerful REST APIs.
+        </p>
+
+        <div id="socialMediaLinks">
+          <a href="https://github.com/Paviii-Shetty" target="_blank">
+            <img
+              src="./images/socialmedia/github-mark.png"
+              alt="Github"
+              srcset=""
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pavithra-shetty-588ab8242/"
+            target="_blank"
+          >
+            <img
+              src="./images/socialmedia/LinkedIn.png"
+              alt="LinkedIn"
+              srcset=""
+            />
+          </a>
+          <a href="mailto:praveenjaishankar123@gmail.com" target="_blank">
+            <img src="./images/socialmedia/email1.png" alt="Email" srcset="" />
+          </a>
+          <a
+            href="resume/Pavithra_NS_JavaFullStackDeveloper.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button"
+          >
+            See my resume
+          </a>
+        </div>
+      </div>
+
+      <div class="lottieGreetingImage">
+        <!--
+         https://lottie.host/70f4c137-61d9-4f81-97a5-88e330d1c72f/QgCxDkg9RW.json 
+        https://lottie.host/33ebab60-8677-4f45-ab4c-487ab7a784c1/JfDXnyIg2s.json 
+        -->
+        <lottie-player
+          src="https://lottie.host/70f4c137-61d9-4f81-97a5-88e330d1c72f/QgCxDkg9RW.json"
+          background="transparent"
+          speed="0.7"
+          loop
+          autoplay
+          direction="1"
+          class="greetingImage"
+          mode="normal"
+        >
+        </lottie-player>
+      </div>
+    </div>
+
+    <!-- What I Do -->
+
+    <div class="whatido-container" id="whatido">
+      <div class="whatidoImage">
+        <!--
+        https://lottie.host/ad14e2f4-06f0-43c0-b894-1f6caea83171/Ixr0InBNgy.json
+https://lottie.host/554d3402-569e-42de-b241-494432459120/SJginC20qe.json
+        -->
+        <lottie-player
+          src="https://lottie.host/ad14e2f4-06f0-43c0-b894-1f6caea83171/Ixr0InBNgy.json"
+          background="transparent"
+          speed="0.7"
+          loop
+          autoplay
+          direction="1"
+          class="whatidoLottieImg"
+          mode="normal"
+        ></lottie-player>
+      </div>
+      <div class="whatidoText">
+        <p class="whatido-intro">What I do</p>
+        <ul class="whatido-list whatido-description">
+          <li>
+            ⚡ Develop Java-based Spring Boot Microservices aligned with
+            business-driven architectures.
+          </li>
+          <li>
+            ⚡ Designed and implemented APIs, web services, and middleware to
+            enable seamless system communication, facilitating third-party API
+            integration, reducing data redundancy, and improving quality.
+          </li>
+          <li>
+            ⚡ Collaborated with UI designers to create a responsive interface,
+            increasing user engagement by 20% and earning positive feedback from
+            stakeholders and end-users.
+          </li>
+          <li>
+            ⚡ Mentored junior developers on technical challenges and career
+            growth development, while leading weekly knowledge-sharing sessions
+            to ensure team growth and performance.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Experience section -->
+    <p class="experience-heading" id="experience">Experience</p>
+    <div class="experience-container">
+      <div class="experience-company-logo">
+        <img src="pics/tata1.jpg" alt="" class="logo-img-exp" />
+      </div>
+      <div class="experience-description">
+        <div class="experience-title">Solution Developer</div>
+        <div class="experience-tenure">2022 - Present</div>
+        <div class="experience-tasks">
+          <ul>
+            <li>
+              Developed user-friendly web portals for clients to access
+              real-time tracking, vehicle diagnostics, trip history, and
+              interactive charts/maps showcasing vehicle health and usage
+              patterns.
+            </li>
+            <li>
+              Created solutions by developing, implementing, and maintaining
+              Java-based components and interfaces using Spring Boot, resulting
+              in a 25% reduction in development time for new features.
+            </li>
+            <li>
+              Contributed to meeting project milestones and deadlines, ensuring
+              on-time delivery within budget, and collaborated on developing a
+              management system that reduced bug-fix times by 20%.
+            </li>
+            <li>
+              Led the development of system test plans, executed system
+              integration and user acceptance testing, ensuring a 20% faster
+              deployment cycle and reducing post-release defects by 15%.
+            </li>
+
+            <li>
+              Implemented RESTful APIs to enable communication between front-end
+              and back-end components and Led a project to integrate third-party
+              APIs, reducing data redundancy and improving data quality.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills section -->
+    <div class="skill-container" id="skills">
+      <div class="skill-title">Skills</div>
+      <div class="skill-intro">
+        An adventurous Java Full Stack Web developer with an unquenchable thirst
+        for exploring all tech stacks imaginable!
+      </div>
+      <div class="skill-iconList">
+        <div class="skill-category-label">Languages</div>
+        <div class="skill-category">
+          <!-- Java Icon -->
+          <div class="skill-icon">
+            <img src="pics/java2.png" class="skills-icon" alt="" />
+
+            Java
+          </div>
+
+          <!-- JavaScript icon -->
+          <div class="skill-icon">
+            <img src="pics/javascript.png" class="skills-icon" alt="" />
+
+            JavaScript
+          </div>
+
+          <!-- HTML icon -->
+          <div class="skill-icon">
+            <img src="pics/html1.png" class="skills-icon" alt="" />
+            HTML
+          </div>
+          <!-- CSS Icon -->
+          <div class="skill-icon">
+            <img src="pics/css.png" class="skills-icon" alt="" />
+            CSS
+          </div>
+
+          <!-- SQL icon -->
+          <div class="skill-icon">
+            <img src="pics/sql (3).png" class="skills-icon" alt="" />
+            SQL
+          </div>
+          <!-- Angular icon -->
+          <div class="skill-icon">
+            <img src="pics/angular.jpg" class="skills-icon" alt="" />
+            AngularJS
+          </div>
+        </div>
+
+        <div class="skill-category-label">Frameworks</div>
+        <div class="skill-category">
+          <!-- Spring Icon -->
+          <div class="skill-icon">
+            <img src="pics/spring.png" class="skills-icon" alt="" />
+
+            Spring
+          </div>
+
+          <!-- Hibernate icon -->
+          <div class="skill-icon">
+            <img src="pics/hibernate.png" class="skills-icon" alt="" />
+            Hibernate
+          </div>
+
+          <!-- Bootstrap icon -->
+          <div class="skill-icon">
+            <img src="pics/bootstrap.png" class="skills-icon" alt="" />
+            Bootstrap
+          </div>
+        </div>
+
+        <div class="skill-category-label">Databases</div>
+        <div class="skill-category">
+          <!-- MySQL icon -->
+          <div class="skill-icon">
+            <img src="pics/MySQL_Dolphin.jpg" class="skills-icon" alt="" />
+
+            MySql
+          </div>
+
+          <!-- PostgreSQL icon -->
+          <!-- <div class="skill-icon">
+            <img src="pics/MySQL_Dolphin.jpg" class="skills-icon" alt="" />
+
+            PostgreSQL
+          </div> -->
+        </div>
+
+        <div class="skill-category-label">Tools</div>
+        <div class="skill-category">
+          <!-- Git icon -->
+          <div class="skill-icon">
+            <img src="pics/git.png" class="skills-icon" alt="" />
+
+            Git
+          </div>
+
+          <!-- Postman icon -->
+          <div class="skill-icon">
+            <img src="pics/postman.png" class="skills-icon" alt="" />
+
+            Postman
+          </div>
+
+          <!-- Figma icon -->
+          <div class="skill-icon">
+            <img src="pics/eclipse.jpg" class="skills-icon" alt="" />
+
+            Eclipse
+          </div>
+
+          <!-- Visual Studio icon -->
+          <div class="skill-icon">
+            <img src="pics/vscode.jpg" class="skills-icon" alt="" />
+
+            VSCode
+          </div>
+        </div>
+
+        <div class="skill-category-label">Platforms</div>
+        <div class="skill-category">
+          <!-- Microservices icon -->
+          <div class="skill-icon">
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 -10 230.000000 230.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,224.000000) scale(0.100000,-0.100000)"
+                fill="grey"
+                stroke="none"
+              >
+                <path
+                  d="M651 2090 l-133 -78 38 -24 c89 -56 244 -140 252 -136 24 9 272 154
+272 158 -1 9 -270 160 -283 159 -6 -1 -72 -36 -146 -79z"
+                />
+                <path
+                  d="M1485 2114 c-49 -29 -109 -64 -133 -76 -34 -17 -40 -24 -30 -34 18
+-16 259 -154 269 -154 5 0 53 26 106 58 54 31 115 66 136 77 20 11 37 22 37
+25 0 8 -262 155 -280 157 -8 1 -55 -23 -105 -53z"
+                />
+                <path
+                  d="M460 1748 l0 -163 132 -75 c72 -41 137 -76 145 -78 10 -3 13 29 13
+156 l0 160 -139 81 c-76 44 -141 81 -145 81 -3 0 -6 -73 -6 -162z"
+                />
+                <path
+                  d="M995 1831 l-130 -77 -3 -162 c-1 -89 0 -162 3 -162 4 0 67 35 141 78
+l134 77 0 163 c0 89 -3 162 -7 162 -5 -1 -66 -36 -138 -79z"
+                />
+                <path
+                  d="M1250 1748 l0 -163 93 -53 c50 -28 116 -66 145 -83 l52 -31 0 165 0
+164 -140 82 c-77 44 -142 81 -145 81 -3 0 -5 -73 -5 -162z"
+                />
+                <path
+                  d="M1778 1828 l-136 -80 -1 -159 c-1 -104 2 -159 9 -159 6 0 71 35 145
+78 l134 77 1 163 c0 89 -3 162 -7 161 -5 0 -70 -37 -145 -81z"
+                />
+                <path
+                  d="M285 1421 c-66 -38 -128 -76 -138 -83 -17 -12 -6 -21 117 -92 74 -43
+137 -79 141 -80 12 -3 284 159 277 165 -4 4 -23 16 -42 27 -19 10 -79 44 -133
+75 -54 32 -99 57 -100 57 -1 0 -56 -31 -122 -69z"
+                />
+                <path
+                  d="M1065 1414 c-72 -41 -134 -79 -138 -83 -5 -5 54 -44 131 -88 l139
+-80 134 78 c73 43 135 81 136 86 2 6 -219 139 -267 161 -3 1 -64 -32 -135 -74z"
+                />
+                <path
+                  d="M1842 1409 l-143 -82 128 -73 c70 -41 137 -77 148 -80 14 -3 63 19
+150 70 71 42 134 76 139 76 6 0 2 6 -9 14 -16 11 -267 156 -269 156 -1 0 -65
+-37 -144 -81z"
+                />
+                <path
+                  d="M70 1067 l0 -165 118 -68 c64 -37 127 -73 140 -81 l22 -13 0 164 0
+164 -107 62 c-60 35 -123 71 -140 82 l-33 20 0 -165z"
+                />
+                <path
+                  d="M602 1148 l-142 -82 0 -164 0 -164 33 19 c17 11 83 48 145 83 l112
+64 0 163 c0 90 -1 163 -3 163 -1 0 -66 -37 -145 -82z"
+                />
+                <path
+                  d="M860 1067 l0 -165 108 -62 c59 -35 122 -71 140 -82 l32 -20 0 165 0
+164 -117 68 c-65 38 -128 75 -140 83 l-23 14 0 -165z"
+                />
+                <path
+                  d="M1388 1147 l-138 -81 0 -164 0 -163 58 33 c32 18 96 56 144 83 l86
+50 1 163 c1 89 -2 162 -6 161 -5 0 -70 -37 -145 -82z"
+                />
+                <path
+                  d="M1647 1068 c4 -190 -15 -160 166 -261 l117 -66 0 163 0 164 -137 78
+c-75 44 -140 80 -143 82 -4 1 -5 -71 -3 -160z"
+                />
+                <path
+                  d="M2178 1148 l-138 -80 0 -165 c0 -90 3 -162 8 -160 4 2 67 39 140 81
+l132 78 0 164 c0 90 -1 164 -2 164 -2 -1 -65 -37 -140 -82z"
+                />
+                <path
+                  d="M664 728 c-76 -43 -140 -80 -141 -82 -2 -2 60 -40 138 -85 l140 -82
+124 71 c67 39 131 77 140 84 15 11 1 22 -123 93 l-140 80 -138 -79z"
+                />
+                <path
+                  d="M1468 738 c-68 -39 -131 -76 -141 -83 -16 -11 -1 -22 122 -94 l141
+-81 132 76 c73 42 137 79 141 84 5 4 -31 30 -80 57 -48 27 -111 64 -140 81
+l-52 31 -123 -71z"
+                />
+                <path
+                  d="M460 387 l0 -165 138 -81 c77 -45 142 -81 146 -81 3 0 5 73 4 162
+l-3 162 -50 29 c-27 17 -75 44 -105 62 -30 18 -72 42 -92 54 l-38 23 0 -165z"
+                />
+                <path
+                  d="M1252 383 l3 -165 135 -79 c74 -43 139 -79 143 -79 13 0 7 318 -6
+329 -7 5 -72 43 -145 84 l-132 76 2 -166z"
+                />
+                <path
+                  d="M1785 465 l-140 -82 -3 -162 c-2 -88 0 -161 4 -161 8 0 240 132 267
+152 16 12 17 30 15 174 l-3 161 -140 -82z"
+                />
+                <path
+                  d="M993 463 l-133 -77 0 -164 0 -163 58 32 c31 18 93 54 137 79 l80 46
+3 162 c1 89 -1 162 -5 162 -5 0 -68 -35 -140 -77z"
+                />
+              </g>
+            </svg>
+            &nbsp;&nbsp;&nbsp;Micro <br />
+            Services
+          </div>
+
+          <!-- Kubernetes icon -->
+          <div class="skill-icon">
+            <img src="pics/restapi.png" class="skills-icon" alt="" />
+
+            RESTful
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects section -->
+    <p class="projects-heading" id="projects">Projects</p>
+    <div class="project-container">
+      <div class="project-card">
+        <div class="project-card-title">
+          <svg
+            width="20px"
+            height="20px"
+            viewBox="0 -1 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M14 10V1.5l-.5-.5H3.74a1.9 1.9 0 0 0-.67.13 1.77 1.77 0 0 0-.94 1 1.7 1.7 0 0 0-.13.62v9.5a1.7 1.7 0 0 0 .13.67c.177.427.515.768.94.95a1.9 1.9 0 0 0 .67.13H4v-1h-.26a.72.72 0 0 1-.29-.06.74.74 0 0 1-.4-.4.93.93 0 0 1-.05-.29v-.5a.93.93 0 0 1 .05-.29.74.74 0 0 1 .4-.4.72.72 0 0 1 .286-.06H13v2H9v1h4.5l.5-.5V10zM4 10V2h9v8H4zm1-7h1v1H5V3zm0 2h1v1H5V5zm1 2H5v1h1V7zm.5 6.49L5.28 15H5v-3h3v3h-.28L6.5 13.49z"
+            />
+          </svg>
+          Connected Vehicle Platform(TTL)
+        </div>
+        <div class="project-card-description">
+          Developed and implemented solutions for the connected vehicle
+          platform, enabling seamless communication between vehicles,
+          infrastructure, and users. Focused on real-time data exchange,
+          supporting intelligent decision-making, and enhancing the overall
+          driving experience.
+        </div>
+        <div class="project-code-language">
+          <div class="language-java"></div>
+          Java
+          <div class="language-sql"></div>
+          JavaScript
+          <div class="language-sql"></div>
+          AngularJS
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-title">
+          <svg
+            width="20px"
+            height="20px"
+            viewBox="0 -1 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M14 10V1.5l-.5-.5H3.74a1.9 1.9 0 0 0-.67.13 1.77 1.77 0 0 0-.94 1 1.7 1.7 0 0 0-.13.62v9.5a1.7 1.7 0 0 0 .13.67c.177.427.515.768.94.95a1.9 1.9 0 0 0 .67.13H4v-1h-.26a.72.72 0 0 1-.29-.06.74.74 0 0 1-.4-.4.93.93 0 0 1-.05-.29v-.5a.93.93 0 0 1 .05-.29.74.74 0 0 1 .4-.4.72.72 0 0 1 .286-.06H13v2H9v1h4.5l.5-.5V10zM4 10V2h9v8H4zm1-7h1v1H5V3zm0 2h1v1H5V5zm1 2H5v1h1V7zm.5 6.49L5.28 15H5v-3h3v3h-.28L6.5 13.49z"
+            />
+          </svg>
+          Portfolio Website (Self Project)
+        </div>
+        <div class="project-card-description">
+          A vibrant portfolio application showcasing work experience, skills,
+          and enriched with engaging animations and effects.
+        </div>
+        <div class="project-code-language">
+          <div class="language-html"></div>
+          HTML
+          <div class="language-css"></div>
+          CSS
+          <div class="language-js"></div>
+          JavaScript
+        </div>
+        <a
+          class="github-button"
+          href="https://github.com/Paviii-Shetty/pavithra_ns-portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="text-decoration: none"
+        >
+          <img src="./images/socialmedia/github-mark-white.png" alt="GitHub" />
+          Github
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h48v48H0z" fill="none" />
+            <g id="Shopicon">
+              <polygon
+                points="44,30 40,30 40,38 8,38 8,10 20,10 20,6 4,6 4,42 44,42 	"
+                fill="white"
+              />
+              <polygon
+                points="26,26.828 40,12.828 40,24 44,24 44,6 26,6 26,10 37.172,10 23.172,24 	"
+                fill="white"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-title">
+          <svg
+            width="20px"
+            height="20px"
+            viewBox="0 -1 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M14 10V1.5l-.5-.5H3.74a1.9 1.9 0 0 0-.67.13 1.77 1.77 0 0 0-.94 1 1.7 1.7 0 0 0-.13.62v9.5a1.7 1.7 0 0 0 .13.67c.177.427.515.768.94.95a1.9 1.9 0 0 0 .67.13H4v-1h-.26a.72.72 0 0 1-.29-.06.74.74 0 0 1-.4-.4.93.93 0 0 1-.05-.29v-.5a.93.93 0 0 1 .05-.29.74.74 0 0 1 .4-.4.72.72 0 0 1 .286-.06H13v2H9v1h4.5l.5-.5V10zM4 10V2h9v8H4zm1-7h1v1H5V3zm0 2h1v1H5V5zm1 2H5v1h1V7zm.5 6.49L5.28 15H5v-3h3v3h-.28L6.5 13.49z"
+            />
+          </svg>
+          Student Registry (Self Project)
+        </div>
+        <div class="project-card-description">
+          A streamlined Student Registry application showcasing Java's CRUD
+          operations.
+        </div>
+        <div class="project-code-language">
+          <div class="language-java"></div>
+          Java
+          <div class="language-sql"></div>
+          MySQL
+        </div>
+        <a
+          class="github-button"
+          href="https://github.com/Paviii-Shetty/Spring-Crud-Operations"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="text-decoration: none"
+        >
+          <img src="./images/socialmedia/github-mark-white.png" alt="GitHub" />
+          Github
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h48v48H0z" fill="none" />
+            <g id="Shopicon">
+              <polygon
+                points="44,30 40,30 40,38 8,38 8,10 20,10 20,6 4,6 4,42 44,42 	"
+                fill="white"
+              />
+              <polygon
+                points="26,26.828 40,12.828 40,24 44,24 44,6 26,6 26,10 37.172,10 23.172,24 	"
+                fill="white"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-container" id="contact">
+      <div class="contact-logo-info">
+        <img src="pics/footer_logo1.jpeg" alt="PraveenJLogo" srcset="" />
+        Live, Breathe, Code
+      </div>
+
+      <div class="contact-details">
+        <div class="contact-title">Contact</div>
+        <div class="contact-information">
+          <svg
+            version="1.1"
+            id="_x32_"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 512 512"
+            xml:space="preserve"
+          >
+            <style type="text/css">
+              .st0 {
+                fill: white;
+              }
+            </style>
+            <g>
+              <path
+                class="st0"
+                d="M510.678,112.275c-2.308-11.626-7.463-22.265-14.662-31.054c-1.518-1.915-3.104-3.63-4.823-5.345
+		c-12.755-12.818-30.657-20.814-50.214-20.814H71.021c-19.557,0-37.395,7.996-50.21,20.814c-1.715,1.715-3.301,3.43-4.823,5.345
+		C8.785,90.009,3.63,100.649,1.386,112.275C0.464,116.762,0,121.399,0,126.087V385.92c0,9.968,2.114,19.55,5.884,28.203
+		c3.497,8.26,8.653,15.734,14.926,22.001c1.59,1.586,3.169,3.044,4.892,4.494c12.286,10.175,28.145,16.32,45.319,16.32h369.958
+		c17.18,0,33.108-6.145,45.323-16.384c1.718-1.386,3.305-2.844,4.891-4.43c6.27-6.267,11.425-13.741,14.994-22.001v-0.064
+		c3.769-8.653,5.812-18.171,5.812-28.138V126.087C512,121.399,511.543,116.762,510.678,112.275z M46.509,101.571
+		c6.345-6.338,14.866-10.175,24.512-10.175h369.958c9.646,0,18.242,3.837,24.512,10.175c1.122,1.129,2.179,2.387,3.112,3.637
+		L274.696,274.203c-5.348,4.687-11.954,7.002-18.696,7.002c-6.674,0-13.276-2.315-18.695-7.002L43.472,105.136
+		C44.33,103.886,45.387,102.7,46.509,101.571z M36.334,385.92V142.735L176.658,265.15L36.405,387.435
+		C36.334,386.971,36.334,386.449,36.334,385.92z M440.979,420.597H71.021c-6.281,0-12.158-1.651-17.174-4.552l147.978-128.959
+		l13.815,12.018c11.561,10.046,26.028,15.134,40.36,15.134c14.406,0,28.872-5.088,40.432-15.134l13.808-12.018l147.92,128.959
+		C453.137,418.946,447.26,420.597,440.979,420.597z M475.666,385.92c0,0.529,0,1.051-0.068,1.515L335.346,265.221L475.666,142.8
+		V385.92z"
+              />
+            </g>
+          </svg>
+          <a href="mailto:pavithrasrinivas.br@gmail.com" target="_blank">
+            pavithrasrinivas.br@gmail.com
+          </a>
+        </div>
+        <div class="contact-information">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+              fill="white"
+            />
+            <path
+              d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+              fill="white"
+            />
+            <path
+              d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+              fill="white"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+              fill="white"
+            />
+          </svg>
+          <a
+            href="https://www.linkedin.com/in/pavithra-shetty-588ab8242/"
+            target="_blank"
+          >
+            linkedIn/pavithra-shetty
+          </a>
+        </div>
+        <div class="contact-information">
+          <svg
+            viewBox="-4 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+          >
+            <title>location</title>
+            <desc>Created with Sketch Beta.</desc>
+            <defs></defs>
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+              sketch:type="MSPage"
+            >
+              <g
+                id="Icon-Set"
+                sketch:type="MSLayerGroup"
+                transform="translate(-104.000000, -411.000000)"
+                fill="white"
+              >
+                <path
+                  d="M116,426 C114.343,426 113,424.657 113,423 C113,421.343 114.343,420 116,420 C117.657,420 119,421.343 119,423 C119,424.657 117.657,426 116,426 L116,426 Z M116,418 C113.239,418 111,420.238 111,423 C111,425.762 113.239,428 116,428 C118.761,428 121,425.762 121,423 C121,420.238 118.761,418 116,418 L116,418 Z M116,440 C114.337,440.009 106,427.181 106,423 C106,417.478 110.477,413 116,413 C121.523,413 126,417.478 126,423 C126,427.125 117.637,440.009 116,440 L116,440 Z M116,411 C109.373,411 104,416.373 104,423 C104,428.018 114.005,443.011 116,443 C117.964,443.011 128,427.95 128,423 C128,416.373 122.627,411 116,411 L116,411 Z"
+                  id="location"
+                  sketch:type="MSShapeGroup"
+                ></path>
+              </g>
+            </g>
+          </svg>
+          Bangalore, KA
+        </div>
+      </div>
+    </div>
+
+    <div class="designed-by">Designed with ❤ by Pavithra N S</div>
+
+    <!-- script tags -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
